@@ -7,8 +7,8 @@ Basic features include:
 
 - Handling existing commands
 - Suspending and killing jobs (```ctrl-c``` with SIGINT and ```ctrl-z``` with SIGTSTP)
+- Job managment (reaping zombie children, ```fg```, ```bg```, etc.)
 - Running jobs in the background (with ```&```).
 - Keeping track of process IDs (PIDs)
-- Job managment (reaping zombie children, fg, bg, etc.)
 
 See [shlab2.pdf](shlab2.pdf) for more information (which includes information on how to run the shell and its tests).
